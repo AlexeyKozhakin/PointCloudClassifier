@@ -1,0 +1,18 @@
+{
+    "input_directory": "D:\\data\\las_org\\test_parallel_preproc_32\\test_npy",
+    "output_directory": "D:\\data\\las_org\\test_parallel_preproc_32\\test_npy_features",
+    "num_processes": 4,
+    "use_gpu": false,
+    "k_neighbors": 64,
+    "features": {
+        "deviation_from_mean": [0, 1, 2],
+        "deviation_from_min": [0, 1, 2],
+        "std": [0, 1, 2],
+        "skewness": [0, 1, 2],
+        "kurtosis": [0, 1, 2]
+    },
+    "logging": {
+        "log_file": "processing.log",
+        "verbose": true
+    }
+}
