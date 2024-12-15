@@ -10,7 +10,7 @@ tensor_list = []
 
 # Чтение файлов .npz и объединение их в один массив
 for filename in os.listdir(input_dir):
-    if filename.endswith('.npz'):
+    if filename.endswith('.npy'):
         file_path = os.path.join(input_dir, filename)
         tensor = np.load(file_path)
         tensor_list.append(tensor)
