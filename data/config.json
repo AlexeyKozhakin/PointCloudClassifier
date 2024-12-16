@@ -2,7 +2,7 @@
     "tile_size": 32,
     "max_points_per_tile": 4096,
     "num_processes": 4,
-    "input_directory": "D:\\data\\las_org\\test_parallel_preproc_32\\test_cut\\USC_points_0_-256",
-    "output_directory": "D:\\data\\las_org\\test_parallel_preproc_32\\test_npy",
+    "input_directory": "D:\\data\\las_org\\san_gwan_64x64",
+    "output_directory": "D:\\data\\las_org\\san_gwan_64x64\\test_npy",
     "log_file": "./processing.log"
 }

@@ -19,8 +19,10 @@ def process_file(file_path, output_dir, config):
     (normals, curvatures,
      centered_neighbors, std, skewness, excess,
      dz_min, dz_max) = compute_normals_and_curvatures_stat(points, points_neighbors, k_neighbors)
-    features = combine_features(normals, curvatures, skewness, excess, dz_max, dz_min, data)
-    output_file = os.path.join(output_dir, os.path.basename(file_path))
+    features = combine_features(normals, curvatures,
+                                centered_neighbors, std, skewness, excess,
+                                dz_max, dz_min, data)
+    output_file = os.path.join(output_dir, f"{os.path.basename(file_path).replace('.npy', f'.csv')}")
     print('out_file:', output_file)
     print('features:', features.shape)
     save_results(output_file, features)

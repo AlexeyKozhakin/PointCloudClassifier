@@ -40,6 +40,7 @@ def process_las_file(file_path, output_dir, max_points_per_tile=4096, tile_size=
             g = las.green
             b = las.blue
             classes = las.classification
+            print(las.point_format)
 
         # Объединение точек в массив
         points = np.vstack((x, y, z, r, g, b, classes)).T
