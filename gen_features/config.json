@@ -1,7 +1,7 @@
 {
-    "input_directory": "D:\\data\\las_org\\test_parallel_preproc_32\\test_npy",
-    "output_directory": "D:\\data\\las_org\\test_parallel_preproc_32\\test_npy_features",
-    "num_processes": 4,
+    "input_directory": "D:\\data\\las_org\\data_las_stpls3d\\all_org_npy_rgb_32_test",
+    "output_directory": "D:\\data\\las_org\\data_las_stpls3d\\all_org_npy_rgb_32_test_features",
+    "num_processes": 1,
     "use_gpu": false,
     "k_neighbors": 64,
     "features": {

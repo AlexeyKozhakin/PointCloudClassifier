@@ -2,7 +2,7 @@
     "tile_size": 32,
     "max_points_per_tile": 4096,
     "num_processes": 4,
-    "input_directory": "D:\\data\\las_org\\san_gwan_64x64",
-    "output_directory": "D:\\data\\las_org\\san_gwan_64x64\\test_npy",
+    "input_directory": "D:\\data\\las_org\\data_las_stpls3d\\all_org_las_cut_rgb_32_test",
+    "output_directory": "D:\\data\\las_org\\data_las_stpls3d\\all_org_npy_rgb_32_test",
     "log_file": "./processing.log"
 }

@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 # Путь к каталогу с файлами .csv
-input_dir = r'D:\data\las_org\test_parallel_preproc_32\test_npy_features'  # Замените на путь к вашему каталогу
-output_file = r'D:\data\las_org\test_parallel_preproc_32\test_npy_features\dataset.csv'  # Замените на путь для итогового файла
+input_dir = r'D:\data\las_org\data_las_stpls3d\all_org_npy_rgb_32_test_features'  # Замените на путь к вашему каталогу
+output_file = r'D:\data\las_org\data_las_stpls3d\all_org_npy_rgb_32_test_features\dataset.csv'  # Замените на путь для итогового файла
 
 # Список для хранения DataFrame
 dataframes_list = []
