@@ -1,0 +1,6 @@
+{
+    "csv_path": "/mnt/working-ssd/alexey_kozhakin/MUSAC/codes/PointCloudClassifier/train_test_split_las/split_a.csv",
+    "source_dir": "/mnt/working-ssd/alexey_kozhakin/MUSAC/data/STPLS3D/data_las",
+    "target_dir": "/mnt/working-ssd/alexey_kozhakin/MUSAC/data/STPLS3D/ml_data_training/test"
+}
+

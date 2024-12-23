@@ -1,6 +1,6 @@
 {
-    "input_directory": "/mnt/working-ssd/alexey_kozhakin/MUSAC/data/STPLS3D/ml_data_training/cut_train_32_npy",
-    "output_directory": "/mnt/working-ssd/alexey_kozhakin/MUSAC/data/STPLS3D/ml_data_training/cut_train_32_csv",
+    "input_directory": "/home/alexey/MUSAC/data/Malta/san_gwann/cut_predict_32_npy",
+    "output_directory": "/home/alexey/MUSAC/data/Malta/san_gwann/cut_predict_32_csv",
     "num_processes": 90,
     "use_gpu": false,
     "k_neighbors": 64,

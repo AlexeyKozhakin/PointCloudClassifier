@@ -1,8 +1,8 @@
 {
     "tile_size": 32,
     "max_points_per_tile": 4096,
-    "num_processes": 4,
-    "input_directory": "D:\\data\\las_org\\data_las_stpls3d\\all_org_las_cut_rgb_32_test",
-    "output_directory": "D:\\data\\las_org\\data_las_stpls3d\\all_org_npy_rgb_32_test",
+    "num_processes": 90,
+    "input_directory": "/home/alexey/MUSAC/data/Malta/san_gwann/cut_predict_32",
+    "output_directory": "/home/alexey/MUSAC/data/Malta/san_gwann/cut_predict_32_npy",
     "log_file": "./processing.log"
 }
